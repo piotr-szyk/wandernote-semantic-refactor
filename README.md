@@ -1,21 +1,32 @@
-# WanderNote — Semantic HTML Refactor
+# 🏛️ WanderNote: Semantic HTML Refactor
 
-## 🎯 Project Overview
-This project involved refactoring a legacy, "div-heavy" travel journal application into a modern, accessible, and SEO-friendly structure. The primary goal was to implement **Semantic HTML5** standards while ensuring the existing CSS architecture and visual design remained intact.
+A specialized project focused on the principles of semantic HTML5, web accessibility (a11y), and Search Engine Optimization (SEO). This project involved taking an existing codebase and refactoring it to meet modern industry standards.
 
-## 🛠️ Key Technical Improvements
-- **Structural Refactoring:** Replaced generic `<div>` containers with semantic elements: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, and `<footer>`.
-- **Accessibility (A11y):** Integrated descriptive `alt` attributes for all visual assets and ensured link text is meaningful for screen readers.
-- **Document Outline:** Reorganized heading hierarchies (`h1` through `h3`) to create a logical, machine-readable document flow.
-- **CSS Grid Layout:** Maintained the original dual-column grid system (`2fr 1fr`) while mapping components to more descriptive HTML tags.
-
-## 🏗️ Requirements & Implementation
-- **Visual Fidelity:** The layout remains identical to the legacy version while using cleaner code.
-- **Modern Standards:** Followed WCAG-aligned accessibility patterns.
-- **Assets:** Utilizes optimized external image hosting (Unsplash/Picsum).
-
-## 🚀 Live Demo
-[View the Refactored Site here](https://piotr-szyk.github.io/wandernote-semantic-refactor/)
+![Difficulty: Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge)
+![Topic: Web Accessibility](https://img.shields.io/badge/Topic-A11y_&_SEO-blue?style=for-the-badge)
+![Tech: HTML5/CSS3](https://img.shields.io/badge/Tech-Semantic_HTML-orange?style=for-the-badge)
 
 ---
-*Completed as part of the Codecademy Full-Stack Software Engineer Path.*
+
+## 🎯 Project Goal
+The primary objective was to improve the codebase's "meaning" without changing the visual layout. By replacing generic `<div>` tags with semantic elements, the site becomes more accessible to screen readers and more "crawlable" for search engine bots.
+
+## 🛠️ Technical Highlights
+This project demonstrates a deep understanding of the "under-the-hood" aspects of web development:
+
+* **Semantic Tagging:** Replaced non-descriptive container tags with meaningful elements like `<header>`, `<nav>`, `<main>`, `<section>`, and `<footer>`.
+* **Accessibility (a11y) Improvements:** * Implemented proper heading hierarchies (`h1` through `h6`).
+    * Added descriptive `alt` attributes to images for visually impaired users.
+    * Ensured logical document flow for screen readers.
+* **SEO Optimization:** Enhanced the site's visibility by using tags that help search engines prioritize the most important content.
+* **CSS Consolidation:** Refactored the stylesheet to eliminate redundant selectors and improve the overall "Dry" (Don't Repeat Yourself) quality of the code.
+
+## ✨ Key Improvements
+- **Logical Structure:** The code is now easier for other developers to read and maintain.
+- **Search Visibility:** Improved the likelihood of the site appearing in relevant search results.
+- **Inclusive Design:** The site is now significantly more usable for people using assistive technologies.
+
+## 📂 Structure
+- `index.html`: The refactored semantic markup.
+- `assets/css/style.css`: The cleaned and organized stylesheet.
+- `assets/images/`: Optimized visual assets.
